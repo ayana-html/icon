@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: rgb(200, 230, 230);
+}
+
+body{
+    display: grid; 
+    place-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: rgb(164, 206, 206);
+}
+
+.first{
+    background-color: rgb(253, 249, 249);
+    padding: 7px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.second{
+    background-color: black;
+    color: azure;
+    padding: 7px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.third{
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    width: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fourth{
+    background-color: black;
+    color: azure;
+    padding: 7px;
+    width: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fifth{
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sixth{
+    background-color: black;
+    color: azure;
+    padding: 7px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.duo{
+    padding-bottom: 80px;
+    position:relative;
+}
+
+.muo{
+    padding-top: 100px;
+}
+
+.check{
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.OFC{
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    color: rgb(191, 188, 188);
+    text-decoration: none;
+    position: relative;
+    left: 250px;
+}
+
+.nobut{
+    background-color: #fff;
+    position: relative;
+    left: 250px;
+}
+
